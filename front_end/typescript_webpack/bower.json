@@ -1,0 +1,14 @@
+{
+  "name": "typescript_webpack",
+  "description": "template for refererence",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
