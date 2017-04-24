@@ -1,0 +1,10 @@
+{
+  "name": "typescript_webpack",
+  "dependencies": {
+    "react": "registry:dt/react#15.0.0+20170324160437",
+    "react-dom": "registry:dt/react-dom#0.14.0+20170207010524"
+  },
+  "globalDependencies": {
+    "jqueryui": "registry:dt/jqueryui#1.11.0+20161214061125"
+  }
+}

@@ -4,12 +4,26 @@
   "description": "template for refererence",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline --no-info -- content-base ./"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+   
     "bower": "^1.8.0",
     "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "@types/jqueryui": "^1.11.32",
+    "@types/jquery": "^2.0.41",
+    "jquery-ui": "^1.12.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1",
+    "webpack": "^2.4.1"
   }
 }
